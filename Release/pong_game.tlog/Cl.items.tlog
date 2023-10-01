@@ -1,5 +1,7 @@
+D:\Code\C++\pong\ball.cpp;D:\Code\C++\pong\Release\ball.obj
+D:\Code\C++\pong\board.cpp;D:\Code\C++\pong\Release\board.obj
 D:\Code\C++\pong\color.cpp;D:\Code\C++\pong\Release\color.obj
 D:\Code\C++\pong\game.cpp;D:\Code\C++\pong\Release\game.obj
-D:\Code\C++\pong\globals.cpp;D:\Code\C++\pong\Release\globals.obj
-D:\Code\C++\pong\globals.h;D:\Code\C++\pong\Release\globals.obj
+D:\Code\C++\pong\graphics.cpp;D:\Code\C++\pong\Release\graphics.obj
+D:\Code\C++\pong\keyboard.cpp;D:\Code\C++\pong\Release\keyboard.obj
 D:\Code\C++\pong\main.cpp;D:\Code\C++\pong\Release\main.obj

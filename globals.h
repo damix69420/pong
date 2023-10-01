@@ -5,7 +5,7 @@
 class Globals
 {
 public:
-	static Color LATINARY_COLOR;
-	static void Init();
+	Color LATINARY_COLOR = Color(86, 19, 209);
+	int TICKS_PER_SECOND = 64;
 	Globals();
 };

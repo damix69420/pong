@@ -19,6 +19,18 @@
     <Filter Include="Source Files\utils">
       <UniqueIdentifier>{f6483cbd-922b-454a-9bc1-ce4aac7d1d55}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\game\board">
+      <UniqueIdentifier>{5b8601ec-c7a1-4eaa-8f5b-fc3a14ed644c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{e73e6eff-a609-4b3e-94ea-ab98662d3e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\ball">
+      <UniqueIdentifier>{23b37786-c5f2-4354-b83a-f20a929010dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{d1231e52-7dea-46d8-9d17-c773f987bd81}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -27,14 +39,20 @@
     <ClCompile Include="game.cpp">
       <Filter>Source Files\game</Filter>
     </ClCompile>
-    <ClCompile Include="globals.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="globals.cpp">
-      <Filter>Source Files\utils</Filter>
-    </ClCompile>
     <ClCompile Include="color.cpp">
       <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="board.cpp">
+      <Filter>Source Files\game\board</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="ball.cpp">
+      <Filter>Source Files\game\ball</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>Source Files\graphics</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -42,7 +60,19 @@
       <Filter>Source Files\game</Filter>
     </ClInclude>
     <ClInclude Include="color.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="board.h">
+      <Filter>Source Files\game\board</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Source Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="ball.h">
+      <Filter>Source Files\game\ball</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>Source Files\graphics</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

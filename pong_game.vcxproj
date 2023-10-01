@@ -145,15 +145,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ball.cpp" />
+    <ClCompile Include="board.cpp" />
     <ClCompile Include="color.cpp" />
     <ClCompile Include="game.cpp" />
-    <ClCompile Include="globals.cpp" />
-    <ClCompile Include="globals.h" />
+    <ClCompile Include="graphics.cpp" />
+    <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ball.h" />
+    <ClInclude Include="board.h" />
     <ClInclude Include="color.h" />
     <ClInclude Include="game.h" />
+    <ClInclude Include="graphics.h" />
+    <ClInclude Include="keyboard.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

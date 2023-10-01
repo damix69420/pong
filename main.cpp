@@ -6,12 +6,11 @@
 
 #include "globals.h"
 #include "game.h"
- 
+
 #undef main
 
 int main(int argc, char* argv[])
 {
-	Globals::Init();
 	Game game = Game();
 	game.Run();
 
