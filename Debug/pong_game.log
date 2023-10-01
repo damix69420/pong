@@ -1,0 +1,4 @@
+﻿main.obj : error LNK2019: unresolved external symbol _SDL_SetMainReady referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _main
+D:\Code\C++\pong_game\Debug\pong_game.exe : fatal error LNK1120: 3 unresolved externals

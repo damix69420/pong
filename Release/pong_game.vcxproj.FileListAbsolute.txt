@@ -1,0 +1,2 @@
+D:\Code\C++\pong_game\Release\pong_game.exe
+D:\Code\C++\pong\Release\pong_game.exe

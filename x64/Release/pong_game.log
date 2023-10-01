@@ -1,0 +1,5 @@
+﻿  main.cpp
+main.obj : error LNK2001: unresolved external symbol SDL_Init
+main.obj : error LNK2001: unresolved external symbol SDL_CreateWindow
+main.obj : error LNK2001: unresolved external symbol SDL_SetMainReady
+D:\Code\C++\pong_game\x64\Release\pong_game.exe : fatal error LNK1120: 3 unresolved externals
